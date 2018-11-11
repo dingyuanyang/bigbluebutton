@@ -1825,7 +1825,7 @@ class ApiController {
     }
 
     def uploadDocuments(conf) {
-        log.debug("modify on 2018 09 10 ApiController#uploadDocuments(${conf.getInternalId()})");
+        log.debug("modify on 2018 11 11 ApiController#uploadDocuments(${conf.getInternalId()})");
 
         String requestBody = request.inputStream == null ? null : request.inputStream.text;
         requestBody = StringUtils.isEmpty(requestBody) ? null : requestBody;
